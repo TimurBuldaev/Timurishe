@@ -45,7 +45,7 @@ movielist.innerHTML = "";
 
 movieDB.movies.sort();
 
-//console.log(poster.innerHTML);
+//console.log(poster.innerHTML);  commit Lesson 30_2 
 // в переменной i содержится номер по порядку, в задаче есть условие: добавить нумерацию
 movieDB.movies.forEach((film, i) => {
     movielist.innerHTML += `
