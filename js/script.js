@@ -36,7 +36,7 @@ adv.forEach( item => {
 genre.textContent = 'Драма';
 
 let t = (a,b) => {
-    return a + b;
+    return a+ b;
 };
 
 poster.style.backgroundImage = 'url("img/bg.jpg")'; //путь к новой картинке
